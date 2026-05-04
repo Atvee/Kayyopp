@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Gold border handloom shawl</title>
+  <desc id="desc">A cream handloom shawl folded over a wooden rail with gold borders.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#fefce8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="128" y="204" width="944" height="68" rx="30" fill="#7c4a20"/>
+    <path d="M286 212h628v370c-93 42-189 41-288-3-104-46-210-47-340 3Z" fill="#fff7ed"/>
+    <path d="M286 212h88v370c-28 4-58 11-88 22Z" fill="#ca8a04"/>
+    <path d="M826 212h88v370c-30 13-59 21-88 26Z" fill="#ca8a04"/>
+    <path d="M420 288h356M420 364h356M420 440h356M420 516h356" stroke="#d6d3d1" stroke-width="9" stroke-linecap="round"/>
+    <path d="M374 212v382M826 212v396" stroke="#b91c1c" stroke-width="14"/>
+    <path d="M286 582c130-50 236-49 340-3 99 44 195 45 288 3" fill="none" stroke="#f59e0b" stroke-width="24"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Wood carving artisan</title>
+  <desc id="desc">Carved teak blocks, chisels, and a wood elephant form on a workshop bench.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset=".55" stop-color="#fef3c7"/>
+      <stop offset="1" stop-color="#dcfce7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#422006" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <path d="M0 555c188-77 320-43 495-84 194-45 360-135 705-50v339H0Z" fill="#0f766e" opacity=".13"/>
+  <g filter="url(#shadow)">
+    <rect x="110" y="482" width="980" height="126" rx="28" fill="#7c4a20"/>
+    <rect x="164" y="256" width="344" height="186" rx="32" fill="#a16207"/>
+    <path d="M214 346c76-58 151-58 226 0M230 395c60-32 120-32 180 0" fill="none" stroke="#fde68a" stroke-width="18" stroke-linecap="round"/>
+    <path d="M638 366c46-92 150-107 228-45 42 33 65 81 52 129h-80c-20 0-39-12-48-30l-19-39-31 69H598c-22-39-7-66 40-84Z" fill="#92400e"/>
+    <circle cx="882" cy="344" r="26" fill="#92400e"/>
+    <path d="M892 318c43-17 71-6 86 31" fill="none" stroke="#92400e" stroke-width="24" stroke-linecap="round"/>
+    <path d="M656 450v55M804 450v55" stroke="#451a03" stroke-width="26" stroke-linecap="round"/>
+    <path d="M160 190l190 190M278 164l190 190" stroke="#0f172a" stroke-width="20" stroke-linecap="round"/>
+    <path d="M326 356l52 52M444 330l52 52" stroke="#b91c1c" stroke-width="30" stroke-linecap="round"/>
+  </g>
+</svg>
